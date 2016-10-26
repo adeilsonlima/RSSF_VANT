@@ -4,20 +4,33 @@ import jsensor.nodes.messages.Message;
 
 public class MeterMessage extends Message {
 	
-	private int value;
+	private Integer value;
+	private Integer senderID;
+	
+	public MeterMessage(Integer value, Integer senderID) {
+		this.value = value;
+		this.senderID =senderID;
+	}
 
 	@Override
 	public Message clone() {
-		// TODO Auto-generated method stub
-		return null;
+		return new MeterMessage(value, this.getSenderID());
 	}
 
-	public int getValue() {
+	public Integer getValue() {
 		return value;
 	}
 
-	public void setValue(int value) {
+	public void setValue(Integer value) {
 		this.value = value;
+	}
+
+	public Integer getSenderID() {
+		return senderID;
+	}
+
+	public void setSenderID(Integer senderID) {
+		this.senderID = senderID;
 	}
 
 }

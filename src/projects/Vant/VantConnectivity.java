@@ -7,9 +7,9 @@ public class VantConnectivity extends ConnectivityModel {
 
 	@Override
 	public boolean isConnected(Node from, Node to) {
-		if (from instanceof Vant && to instanceof Medidor) {
+		if (from instanceof Vant && to instanceof Meter) {
 			return true;
-		} else if (from instanceof Medidor && to instanceof Vant) {
+		} else if (from instanceof Meter && to instanceof Vant) {
 			return true;
 		} else
 			return false;

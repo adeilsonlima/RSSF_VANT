@@ -71,3 +71,17 @@ java.lang.NullPointerException
 	at jsensor.Main.run(Main.java:205)
 	at jsensor.Main.main(Main.java:79)
 
+out 25, 2016 10:54:35 PM jsensor.Main run
+GRAVE: null
+java.lang.NullPointerException
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:54)
+	at jsensor.Main.run(Main.java:205)
+	at jsensor.Main.main(Main.java:79)
+
+out 25, 2016 11:46:32 PM jsensor.Main run
+GRAVE: null
+java.lang.NullPointerException
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:54)
+	at jsensor.Main.run(Main.java:205)
+	at jsensor.Main.main(Main.java:79)
+
