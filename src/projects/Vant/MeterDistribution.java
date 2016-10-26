@@ -5,11 +5,23 @@ import jsensor.nodes.models.DistributionModelNode;
 import jsensor.utils.Position;
 
 public class MeterDistribution extends DistributionModelNode {
+	private static int nHouses = 50;
 
 	@Override
 	public Position getPosition(Node node) {
-		// TODO Auto-generated method stub
-		return null;
+		int id = node.getID();
+		int div = id / nHouses;
+		int rest = id % nHouses;
+		int posX, posY;
+
+		if (div % 2 == 0) {
+			posX = rest * 15;
+			posY = div * 75;
+		} else {
+			posX = (nHouses - rest) * 15;
+			posY = div * 60;
+		}
+		return new Position(posX, posY);
 	}
 
 }

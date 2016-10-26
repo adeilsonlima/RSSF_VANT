@@ -1,0 +1,73 @@
+out 25, 2016 12:23:14 AM jsensor.runtime.threads.NodesCreationThread run
+GRAVE: null
+java.lang.NullPointerException: The getPosition(Node n) method of MeterDistribution class should not return null.
+	at jsensor.runtime.threads.NodesCreationThread.run(NodesCreationThread.java:112)
+
+out 25, 2016 12:23:14 AM jsensor.runtime.threads.NodesCreationThread run
+GRAVE: null
+java.lang.NullPointerException: The getPosition(Node n) method of MeterDistribution class should not return null.
+	at jsensor.runtime.threads.NodesCreationThread.run(NodesCreationThread.java:112)
+
+out 25, 2016 12:23:14 AM jsensor.runtime.threads.NodesCreationThread run
+GRAVE: null
+java.lang.NullPointerException: The getPosition(Node n) method of MeterDistribution class should not return null.
+	at jsensor.runtime.threads.NodesCreationThread.run(NodesCreationThread.java:112)
+
+out 25, 2016 12:23:14 AM jsensor.runtime.threads.NodesCreationThread run
+GRAVE: null
+java.lang.NullPointerException: The getPosition(Node n) method of MeterDistribution class should not return null.
+	at jsensor.runtime.threads.NodesCreationThread.run(NodesCreationThread.java:112)
+
+out 25, 2016 12:25:26 AM jsensor.runtime.threads.NodesCreationThread run
+GRAVE: null
+java.lang.NullPointerException: The getPosition(Node n) method of MeterDistribution class should not return null.
+	at jsensor.runtime.threads.NodesCreationThread.run(NodesCreationThread.java:112)
+
+out 25, 2016 12:25:26 AM jsensor.runtime.threads.NodesCreationThread run
+GRAVE: null
+java.lang.NullPointerException: The getPosition(Node n) method of MeterDistribution class should not return null.
+	at jsensor.runtime.threads.NodesCreationThread.run(NodesCreationThread.java:112)
+
+out 25, 2016 12:25:26 AM jsensor.runtime.threads.NodesCreationThread run
+GRAVE: null
+java.lang.NullPointerException: The getPosition(Node n) method of MeterDistribution class should not return null.
+	at jsensor.runtime.threads.NodesCreationThread.run(NodesCreationThread.java:112)
+
+out 25, 2016 12:25:26 AM jsensor.runtime.threads.NodesCreationThread run
+GRAVE: null
+java.lang.NullPointerException: The getPosition(Node n) method of MeterDistribution class should not return null.
+	at jsensor.runtime.threads.NodesCreationThread.run(NodesCreationThread.java:112)
+
+out 25, 2016 2:38:56 PM jsensor.runtime.threads.NodesCreationThread run
+GRAVE: null
+java.lang.NullPointerException: The getPosition(Node n) method of VantDistribution class should not return null.
+	at jsensor.runtime.threads.NodesCreationThread.run(NodesCreationThread.java:112)
+
+out 25, 2016 2:39:47 PM jsensor.Main run
+GRAVE: null
+java.lang.NullPointerException
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:54)
+	at jsensor.Main.run(Main.java:205)
+	at jsensor.Main.main(Main.java:79)
+
+out 25, 2016 2:41:42 PM jsensor.Main run
+GRAVE: null
+java.lang.NullPointerException
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:54)
+	at jsensor.Main.run(Main.java:205)
+	at jsensor.Main.main(Main.java:79)
+
+out 25, 2016 2:43:35 PM jsensor.Main run
+GRAVE: null
+java.lang.NullPointerException
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:54)
+	at jsensor.Main.run(Main.java:205)
+	at jsensor.Main.main(Main.java:79)
+
+out 25, 2016 9:50:22 PM jsensor.Main run
+GRAVE: null
+java.lang.NullPointerException
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:54)
+	at jsensor.Main.run(Main.java:205)
+	at jsensor.Main.main(Main.java:79)
+

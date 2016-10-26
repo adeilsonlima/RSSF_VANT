@@ -8,8 +8,7 @@ public class VantDistribution extends DistributionModelNode {
 
 	@Override
 	public Position getPosition(Node node) {
-		// TODO Auto-generated method stub
-		return null;
+		return new Position(0, 0);
 	}
 
 }

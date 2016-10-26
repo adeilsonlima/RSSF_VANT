@@ -7,8 +7,12 @@ public class VantConnectivity extends ConnectivityModel {
 
 	@Override
 	public boolean isConnected(Node from, Node to) {
-		// TODO Auto-generated method stub
-		return false;
+		if (from instanceof Vant && to instanceof Medidor) {
+			return true;
+		} else if (from instanceof Medidor && to instanceof Vant) {
+			return true;
+		} else
+			return false;
 	}
 
 }
